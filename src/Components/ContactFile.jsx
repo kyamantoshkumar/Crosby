@@ -1,3 +1,4 @@
+
 import React from "react"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
@@ -24,10 +25,10 @@ const Contact = () => {
                              <p style={myStyle} className="fs-1" >Contact US</p>
                              <p style={myStyle} className="fs-4" >The following text is placeholder known as “lorem ipsum,” which is scrambled Latin used by designers to mimic real copy. Lorem ipsum dolor sit amet nullam.</p>
                              <button className="lightbox-handle sqs-system-button sqs-editable-button sqs-button-element--primary" id="yui_3_17_2_1_1670906158694_217" tabIndex="0">Get in Touch
-  </button>
-    </div>
-                   </div>
-                    </div>
+                       </button>
+                       </div>
+                       </div>
+                  </div>
                 </div>
                 </div>
                  <div className="row text-light">
@@ -57,8 +58,8 @@ const Contact = () => {
                </div>
             </div>
           </div>
-                    </div>
-                    <div>
+           </div>
+           <div>
             <h4 style={myStyle} className="mt-4">Made with <u className="text-muted text-start">Squarespace</u></h4>
           </div>
           <div className="my-4 ">
