@@ -2,6 +2,7 @@
 import React from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./Components/ContactFile";
+import FormValidation from "./Components/Form Validation";
 import Journal from "./Components/JournalFile";
 import Navbar from "./Components/Navbar";
 import Ourstory from "./Components/OurStory";
@@ -16,6 +17,7 @@ const App = () => {
          <Route path="/ourstory" element={<Ourstory/>}/>
          <Route path="/journal" element={<Journal/>} />
          <Route path="/contact" element={<Contact/>}/>
+         <Route path="/formvalidation" element={<FormValidation/>}/>
        </Routes>
     </BrowserRouter>
     
