@@ -7,6 +7,7 @@ import Journal from "./Components/JournalFile";
 import Navbar from "./Components/Navbar";
 import Ourstory from "./Components/OurStory";
 import Shop from "./Components/ShopFile";
+import Assignment1 from "./Components/Pages/Assignment"
 const App = () => {
   return(
 
@@ -18,6 +19,7 @@ const App = () => {
          <Route path="/journal" element={<Journal/>} />
          <Route path="/contact" element={<Contact/>}/>
          <Route path="/formvalidation" element={<FormValidation/>}/>
+         <Route path="/assignment" element={<Assignment1 />} />
        </Routes>
     </BrowserRouter>
     
